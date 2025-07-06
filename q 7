@@ -1,0 +1,27 @@
+//Create a class Person with two variables: name and age. Declare an object and assign values.
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+// Class definition
+class Person {
+public:
+    string name;
+    int age;
+};
+
+int main() {
+    // Declare an object of Person
+    Person p;
+
+    // Assign values
+    p.name = "Alice";
+    p.age = 25;
+
+    // Print values
+    cout << "Name: " << p.name << endl;
+    cout << "Age: " << p.age << endl;
+
+    return 0;
+}

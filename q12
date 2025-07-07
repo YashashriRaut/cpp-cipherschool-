@@ -1,0 +1,31 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Printer {
+public:
+    // Print an integer
+    void print(int num) {
+        cout << "Integer: " << num << endl;
+    }
+
+    // Print a string
+    void print(string text) {
+        cout << "String: " << text << endl;
+    }
+
+    // Print two integers
+    void print(int a, int b) {
+        cout << "Two Integers: " << a << " and " << b << endl;
+    }
+};
+
+int main() {
+    Printer p;
+
+    p.print(10);              // Calls first print()
+    p.print("Hello World");   // Calls second print()
+    p.print(5, 15);           // Calls third print()
+
+    return 0;
+}

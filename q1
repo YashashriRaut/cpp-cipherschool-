@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Print personal information
+    cout << "Name: Yashashri Raut" << endl;
+    cout << "Age: 20" << endl;
+    cout << "Favorite Hobby: Painting" << endl;
+
+    return 0;
+}

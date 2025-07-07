@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+// Base class
+class Vehicle {
+public:
+    void start() {
+        cout << "Vehicle is starting..." << endl;
+    }
+};
+
+// Derived class
+class Car : public Vehicle {
+    // Inherits start() method from Vehicle
+};
+
+int main() {
+    Car myCar;       // Create object of derived class
+    myCar.start();   // Call inherited method
+
+    return 0;
+}
